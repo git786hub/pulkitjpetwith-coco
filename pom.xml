@@ -332,16 +332,7 @@
           <locales>en,es,ja,fr,zh_CN,ko</locales>
         </configuration>
       </plugin>
-      <plugin>
-        <groupId>org.jacoco</groupId>
-        <artifactId>jacoco-maven-plugin</artifactId>
-        <configuration>
-          <excludes>
-            <exclude>org.apache.ibatis.ognl.*</exclude>
-            <exclude>org.apache.ibatis.javassist.*</exclude>
-          </excludes>
-        </configuration>
-      </plugin>
+      
 	  
 	  <plugin>
 	<groupId>org.jacoco</groupId>
